@@ -6,7 +6,7 @@
 # AREDS Severity Scale Visualization
 
 > A custom visualization I developed to visualize
-> Some issues in AREDS 1 severity scale 
+> some issues in AREDS 1 severity scale 
 > that affected our analysis.
 
 
@@ -31,12 +31,6 @@
 
 This repo is a snippet for the R code to create the visualization in Supplemental Figure 1 in: <b>Seddon et al. Rare and Common Genetic Variants, Smoking, and Body Mass Index: Progression and Earlier Age of Developing Advanced Age-Related Macular Degeneration (2020).</b> 
 [(PUBMED LINK)](https://pubmed.ncbi.nlm.nih.gov/33369641/)
-
-
-
-## GRAPH PREVIEW
-
-![Visualization](./sevscale_supFig_year_20201113_g.tiff)
 
 
 ---
@@ -104,6 +98,16 @@ Since AREDS data, while public, requires credential and research proposal, I can
 
 
 ---
+
+
+## GRAPH PREVIEW
+
+<!-- centered, controlled width -->
+<div align="left">
+  <img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="400">
+</div>
+
+
 
 ## OTHER VERSION
 
