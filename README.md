@@ -1,27 +1,5 @@
-<head>
-    <title>Line </title>
-    <style>
-        /* Style for a dark horizontal line */
-        .top-line {
-            border: none;              /* Remove default border */
-            height: 4px;               /* Thickness of the line */
-            background-color: #000000; /* Black color */
-            margin: 20px 0;            /* Space above and below */
-        }
-        .dark-line {
-            border: none;              /* Remove default border */
-            height: 1px;               /* Thickness of the line */
-            background-color: #000000; /* Black color */
-            margin: 20px 0;            /* Space above and below */
-        }
-    </style>
-</head>
 
-
-
-
-
-<hr class="top-line" >
+<hr >
 
 
 
@@ -44,7 +22,7 @@
 
 
 
-<hr class="dark-line">
+<hr >
 
 
 
