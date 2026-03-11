@@ -36,11 +36,50 @@ This repo is a snippet for the R code to create the visualization in Supplementa
 ---
 
 
-## FULL STORY
+## BACKGROUND / OVERVIEW
 
-See [Blog post](https://raffwh.github.io/post/2020-12-02-AREDS-score-flipflop/).
+### AREDS **1** overview
+
+AREDS was a multiyear longitudinal clinical trial on age-related macular degeneration, looking to see the effect of supplements on the progression of the disease. During the first AREDS trial, the grading system utilized 9 steps plus progression to the advanced AMD. 
+
+Many papers have been published and explained the trial design and results. So I won't go into details here.
+
 
 --
+
+### Research Objective
+
+While many studies now used the simplified scale, we used the full scale to create a more granular analysis on the time-based progression of the disease.
+
+- **Severity scale 1-8**: was for the non-advanced AMD grade.
+
+- **Severity scale 9**: was for the advanced AMD grade.
+
+- **modified severity scale 9, to include 10, 11, 12**: was our modification to include GA and NV as part of the continuous scale. 
+
+
+### Story
+
+- Since we analyzed it in very granular level, we hit an issue where the count of advanced AMD was different between timepoints.
+
+- Upon further investigation, we found that there were many cases where an eye was graded as progressed to advanced stage 
+but then went back to non-advanced stage. 
+
+- Since we wanted to analyze this progression like survival analysis, we had to make sure that a progressed eye should not go back to non-advanced stage. 
+
+    - In some cases, the advanced grade only occured once in the middle of the study period and then back to very early stage (scale <6).
+    - In other cases, the time when the eye progressed to advanced stage occurred multiple times. 
+
+- So, we developed a criteria to only select the eye as progressed eye, when the grade or status had passed the progression status/scale, at least at 2 time points in a sequence. 
+
+
+- Then we realized the system was quite abstract.
+
+> - So, I developed a visualization to show the progression and the flip flopping issue.
+
+
+
+
 
 
 ## CODE
