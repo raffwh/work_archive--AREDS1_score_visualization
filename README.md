@@ -38,7 +38,7 @@ This repo is a snippet for the R code to create the visualization in Supplementa
 
 ## FULL STORY
 
-See [Blog post](https://raffwh.github.io/post/2020-12-02-AREDS-score-flipflop/).
+See [Blog post](https://raffwh.github.io/p/areds-score-flipflop/).
 
 --
 
@@ -65,7 +65,7 @@ Since AREDS data, while public, requires credential and research proposal, I can
 
 <!-- centered, controlled width -->
 <div align="left">
-  <img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="400">
+  <img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="45%">
 </div>
 
 
